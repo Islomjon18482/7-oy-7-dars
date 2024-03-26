@@ -135,7 +135,16 @@
   padding: 40px;
 }
 .modal {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
   width: 900px;
+  top: 0;
+  padding-bottom: 40px;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .modal .modal__heading {
   font-size: 20px;
@@ -148,26 +157,26 @@
   border-radius: 8px 8px 0px 0px;
   background-color: rgba(96, 122, 251, 1);
 }
-.modal__inp{
+.modal__inp {
   padding: 30px 40px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-.modal__inp label{
+.modal__inp label {
   width: 260px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-.modal__inp label input{
+.modal__inp label input {
   outline: none;
   padding: 16px;
   border-radius: 8px;
   border: none;
   background-color: rgba(249, 248, 250, 1);
 }
-.modal button{
+.modal button {
   display: block;
   margin: 0 40px;
   width: 260px;
